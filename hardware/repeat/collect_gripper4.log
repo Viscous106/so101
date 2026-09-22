@@ -1,0 +1,20 @@
+000 static approach +0 goal 1742 pos 1754.1 load +64 peak 0
+001 static approach +0 goal 1742 pos 1741.0 load +0 peak 0
+002 static approach +0 goal 1742 pos 1741.0 load +0 peak 0
+003 static approach +0 goal 1742 pos 1744.0 load +20 peak 0
+004 static approach +0 goal 1742 pos 1744.0 load +20 peak 0
+005 stair  approach +1 goal 1702 pos 1697.0 load -32 peak 68
+006 stair  approach +1 goal 1722 pos 1718.0 load -28 peak 52
+007 stair  approach +1 goal 1732 pos 1728.0 load -28 peak 48
+008 stair  approach +1 goal 1737 pos 1732.0 load -32 peak 48
+009 stair  approach +1 goal 1742 pos 1738.0 load -28 peak 52
+010 stair  approach +1 goal 1747 pos 1742.0 load -32 peak 44
+011 stair  approach +1 goal 1752 pos 1748.0 load -28 peak 52
+released: torque off, settings restored
+Traceback (most recent call last):
+  File "/home/machine/so101/repeat/collect.py", line 58, in <module>
+    peak = b.move(joint, P + s); capture("stair", +1, P + s, peak)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/machine/so101/repeat/bus.py", line 77, in move
+    time.sleep(settle)
+KeyboardInterrupt

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/machine/so101/repeat/collect.py", line 28, in <module>
+    assert lo + 80 < P - 60 and P + 60 < hi - 80, f"{joint} at {P} is too close to its limits [{lo},{hi}]"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: gripper at 1708 is too close to its limits [1586,3138]

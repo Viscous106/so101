@@ -4,3 +4,7 @@ outputs/
 assets/mujoco_menagerie/
 __pycache__/
 *.pyc
+
+# raw per-frame capture images from hardware/repeat runs - regenerate via collect.py/collect_v2.py,
+# keep meta.json/captures.jsonl/results*.json (the actual measurements) tracked
+hardware/repeat/runs/*/[0-9][0-9][0-9].png

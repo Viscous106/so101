@@ -1,13 +1,22 @@
 [project]
 name = "so101-lab"
 version = "0.1.0"
-description = "SO-101 / LeRobot playground: MuJoCo sim-first, CPU-only"
+description = "SO-101 / LeRobot playground: MuJoCo sim + real hardware calibration"
 requires-python = ">=3.12,<3.13"
 dependencies = [
-    "mujoco>=3.2",
     "numpy<2.3",
     "imageio[ffmpeg]",
     "matplotlib",
+]
+
+[project.optional-dependencies]
+sim = [
+    "mujoco>=3.2",
+]
+real = [
+    "lerobot[feetech,hardware]>=0.6.1",
+    "opencv-python-headless",
+    "python-xlib",
 ]
 
 [tool.uv]

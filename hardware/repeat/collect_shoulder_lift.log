@@ -1,0 +1,7 @@
+000 static approach +0 goal 1982 pos 1982.0 load +0 peak 0
+001 static approach +0 goal 1982 pos 1982.0 load +0 peak 0
+002 static approach +0 goal 1982 pos 1982.0 load +0 peak 0
+003 static approach +0 goal 1982 pos 1982.0 load +0 peak 0
+004 static approach +0 goal 1982 pos 1982.0 load +0 peak 0
+ABORTED: RuntimeError('shoulder_lift stalled at 1939 going to 1922 (peak load 124)')
+released: torque off, settings restored

@@ -1,0 +1,17 @@
+000 static approach +0 goal 1746 pos 1744.0 load -20 peak 0
+001 static approach +0 goal 1746 pos 1744.0 load -20 peak 0
+002 static approach +0 goal 1746 pos 1744.0 load -20 peak 0
+003 static approach +0 goal 1746 pos 1744.0 load -20 peak 0
+004 static approach +0 goal 1746 pos 1742.6 load -24 peak 0
+005 stair  approach +1 goal 1706 pos 1701.0 load -32 peak 60
+006 stair  approach +1 goal 1726 pos 1732.0 load +36 peak 88
+007 stair  approach +1 goal 1736 pos 1732.0 load -28 peak 32
+008 stair  approach +1 goal 1741 pos 1736.0 load -32 peak 52
+009 stair  approach +1 goal 1746 pos 1743.0 load -24 peak 48
+010 stair  approach +1 goal 1751 pos 1746.0 load -32 peak 48
+011 stair  approach +1 goal 1756 pos 1752.0 load -28 peak 48
+012 stair  approach +1 goal 1766 pos 1761.6 load -28 peak 56
+013 stair  approach +1 goal 1786 pos 1790.0 load +28 peak 60
+014 repeat approach -1 goal 1746 pos 1751.3 load +36 peak 72
+ABORTED: RuntimeError('gripper stalled at 1719 going to 1701 (peak load 88)')
+released: torque off, settings restored

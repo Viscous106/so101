@@ -1,0 +1,7 @@
+000 static approach +0 goal 1769 pos 1769.0 load +0 peak 0
+001 static approach +0 goal 1769 pos 1769.0 load +0 peak 0
+002 static approach +0 goal 1769 pos 1763.1 load -40 peak 0
+003 static approach +0 goal 1769 pos 1760.0 load -48 peak 0
+004 static approach +0 goal 1769 pos 1761.0 load -44 peak 0
+ABORTED: RuntimeError('gripper stalled at 1716 going to 1729 (peak load 88)')
+released: torque off, settings restored
