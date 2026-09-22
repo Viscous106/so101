@@ -17,7 +17,10 @@ def load(i):
 
 mask = np.full((720, 1280), 255, np.uint8)
 mask[:25], mask[-25:], mask[:, :25], mask[:, -25:] = 0, 0, 0, 0
-cv2.fillPoly(mask, [np.array([[300, 720], [480, 440], [830, 440], [1010, 720]])], 0)   # the jaws move with the camera
+# everything rigidly attached to the camera must be masked out of the registration: the jaws, and (since
+# 2026-09-22) the marker taped into them. collect_v2 records the polygon it was run with in meta["mask_poly"].
+JAWS_ONLY = [[300, 720], [480, 440], [830, 440], [1010, 720]]
+cv2.fillPoly(mask, [np.array(meta.get("mask_poly", JAWS_ONLY), np.int32)], 0)
 CRIT = (cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 400, 1e-8)
 ref = load(0)
 small = lambda im: cv2.resize(im, None, fx=0.25, fy=0.25, interpolation=cv2.INTER_AREA)

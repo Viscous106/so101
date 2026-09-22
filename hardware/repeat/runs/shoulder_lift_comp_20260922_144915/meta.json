@@ -1,0 +1,116 @@
+{
+ "compensated": true,
+ "joint": "shoulder_lift",
+ "P": 2621,
+ "delta": 45,
+ "n_pairs": 15,
+ "stair": [
+  -40,
+  -20,
+  -10,
+  -5,
+  0,
+  5,
+  10,
+  20,
+  40
+ ],
+ "started": "2026-09-22 14:49:17",
+ "mask_poly": [
+  [
+   350,
+   720
+  ],
+  [
+   470,
+   560
+  ],
+  [
+   500,
+   0
+  ],
+  [
+   1000,
+   0
+  ],
+  [
+   960,
+   560
+  ],
+  [
+   1020,
+   720
+  ]
+ ],
+ "camera": "YUYV 1280x720 exposure 0.0100s gain 0, 4-frame mean",
+ "torque_limit": 350,
+ "gains": {
+  "P": 32,
+  "I": 16,
+  "D": 32
+ },
+ "accel": 8,
+ "speed": 150,
+ "servo": {
+  "shoulder_pan": {
+   "P": 16,
+   "I": 0,
+   "D": 32,
+   "cw_dead": 1,
+   "ccw_dead": 1,
+   "pos": 1991,
+   "temp": 34,
+   "volt": 125
+  },
+  "shoulder_lift": {
+   "P": 16,
+   "I": 0,
+   "D": 32,
+   "cw_dead": 1,
+   "ccw_dead": 1,
+   "pos": 2621,
+   "temp": 33,
+   "volt": 124
+  },
+  "elbow_flex": {
+   "P": 16,
+   "I": 0,
+   "D": 32,
+   "cw_dead": 1,
+   "ccw_dead": 1,
+   "pos": 2194,
+   "temp": 34,
+   "volt": 125
+  },
+  "wrist_flex": {
+   "P": 16,
+   "I": 0,
+   "D": 32,
+   "cw_dead": 1,
+   "ccw_dead": 1,
+   "pos": 1522,
+   "temp": 33,
+   "volt": 123
+  },
+  "wrist_roll": {
+   "P": 16,
+   "I": 0,
+   "D": 32,
+   "cw_dead": 1,
+   "ccw_dead": 1,
+   "pos": 1094,
+   "temp": 34,
+   "volt": 124
+  },
+  "gripper": {
+   "P": 16,
+   "I": 0,
+   "D": 32,
+   "cw_dead": 1,
+   "ccw_dead": 1,
+   "pos": 1810,
+   "temp": 34,
+   "volt": 124
+  }
+ }
+}

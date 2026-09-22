@@ -1,0 +1,147 @@
+=== shoulder_lift 15:02:49 ===
+000 static approach +0 goal 2202 pos 2202.0 load +0 peak 0
+001 static approach +0 goal 2202 pos 2202.0 load +0 peak 0
+002 static approach +0 goal 2202 pos 2202.0 load +0 peak 0
+003 static approach +0 goal 2202 pos 2202.0 load +0 peak 0
+004 static approach +0 goal 2202 pos 2202.0 load +0 peak 0
+005 stair  approach +1 goal 2162 pos 2161.7 load +127 peak 94
+006 stair  approach +1 goal 2182 pos 2182.0 load +30 peak 106
+007 stair  approach +1 goal 2192 pos 2194.0 load +30 peak 29
+008 stair  approach +1 goal 2197 pos 2197.0 load +28 peak 32
+009 stair  approach +1 goal 2202 pos 2204.0 load +36 peak 30
+010 stair  approach +1 goal 2207 pos 2207.0 load +24 peak 38
+011 stair  approach +1 goal 2212 pos 2213.0 load +33 peak 52
+012 stair  approach +1 goal 2222 pos 2226.6 load +23 peak 38
+013 stair  approach +1 goal 2242 pos 2244.0 load +34 peak 37
+014 repeat approach -1 goal 2202 pos 2204.0 load +148 peak 171
+015 repeat approach +1 goal 2202 pos 2202.6 load +147 peak 47
+016 repeat approach -1 goal 2202 pos 2204.0 load +23 peak 170
+017 repeat approach +1 goal 2202 pos 2202.6 load +138 peak 105
+018 repeat approach -1 goal 2202 pos 2205.0 load +30 peak 185
+019 repeat approach +1 goal 2202 pos 2205.0 load +30 peak 100
+020 repeat approach -1 goal 2202 pos 2202.0 load +116 peak 172
+021 repeat approach +1 goal 2202 pos 2203.0 load +23 peak 92
+022 repeat approach -1 goal 2202 pos 2204.0 load +90 peak 165
+023 repeat approach +1 goal 2202 pos 2201.0 load +115 peak 130
+024 repeat approach -1 goal 2202 pos 2196.0 load +21 peak 163
+025 repeat approach +1 goal 2202 pos 2203.0 load +23 peak 105
+026 repeat approach -1 goal 2202 pos 2196.0 load +64 peak 172
+027 repeat approach +1 goal 2202 pos 2202.0 load +36 peak 125
+028 repeat approach -1 goal 2202 pos 2204.0 load +148 peak 163
+029 repeat approach +1 goal 2202 pos 2205.0 load +30 peak 43
+030 repeat approach -1 goal 2202 pos 2196.0 load +23 peak 171
+031 repeat approach +1 goal 2202 pos 2200.0 load +122 peak 101
+032 repeat approach -1 goal 2202 pos 2200.0 load +122 peak 165
+033 repeat approach +1 goal 2202 pos 2202.0 load +30 peak 99
+034 repeat approach -1 goal 2202 pos 2202.0 load +118 peak 177
+035 repeat approach +1 goal 2202 pos 2205.0 load +30 peak 90
+036 repeat approach -1 goal 2202 pos 2196.0 load +70 peak 164
+037 repeat approach +1 goal 2202 pos 2196.0 load +64 peak 103
+038 repeat approach -1 goal 2202 pos 2197.0 load +86 peak 175
+039 repeat approach +1 goal 2202 pos 2205.0 load +42 peak 126
+040 repeat approach -1 goal 2202 pos 2197.0 load +68 peak 165
+041 repeat approach +1 goal 2202 pos 2205.0 load +30 peak 120
+042 repeat approach -1 goal 2202 pos 2198.0 load +111 peak 173
+043 repeat approach +1 goal 2202 pos 2205.0 load +24 peak 100
+044 static_end approach +0 goal 2202 pos 2205.0 load +24 peak 0
+045 static_end approach +0 goal 2202 pos 2205.0 load +24 peak 0
+046 static_end approach +0 goal 2202 pos 2205.0 load +24 peak 0
+DONE
+released: torque off, settings restored
+--- analyze runs/shoulder_lift_comp_20260922_150249 ---
+joint                  shoulder_lift
+compensated            True
+P                      2202
+measure                px
+per_step               1.1448
+stair_r2               0.9993
+stair_resid_rms_steps  0.2602
+noise_floor_steps      0.0047
+failed_registrations   [5, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+stair_points_used      6
+min_cc_repeat          -1.0
+from_above             {'n': 15, 'cam_mean': 75.331, 'cam_std': 139.847, 'enc_mean': -1.933, 'enc_std': 3.615, 'hidden_mean': 77.264, 'hidden_std': 138.023}
+from_below             {'n': 15, 'cam_mean': 56.675, 'cam_std': 118.637, 'enc_mean': 0.809, 'enc_std': 2.505, 'hidden_mean': 55.865, 'hidden_std': 118.137}
+reversal_error         {'camera_steps': 18.656, 'camera_deg': 1.64, 'encoder_steps': -2.743, 'hidden_steps': 21.398, 'mm_at_250mm': 7.154}
+all_arrivals           {'cam_std_steps': 127.774, 'cam_std_deg': 11.23, 'cam_range_steps': 349.433, 'mm_at_250mm_1sigma': 49.001, 'enc_std_steps': 3.359, 'hidden_std_steps': 126.699, 'corr_cam_enc': 0.332}
+=== elbow_flex 15:10:06 ===
+000 static approach +0 goal 2608 pos 2608.0 load +0 peak 0
+001 static approach +0 goal 2608 pos 2608.0 load +0 peak 0
+002 static approach +0 goal 2608 pos 2608.0 load +0 peak 0
+003 static approach +0 goal 2608 pos 2608.0 load +0 peak 0
+004 static approach +0 goal 2608 pos 2608.0 load +0 peak 0
+005 stair  approach +1 goal 2568 pos 2567.0 load +23 peak 112
+006 stair  approach +1 goal 2588 pos 2586.0 load +19 peak 83
+007 stair  approach +1 goal 2598 pos 2594.0 load -33 peak 86
+008 stair  approach +1 goal 2603 pos 2603.0 load -66 peak 79
+009 stair  approach +1 goal 2608 pos 2607.0 load -22 peak 88
+010 stair  approach +1 goal 2613 pos 2617.0 load -75 peak 87
+011 stair  approach +1 goal 2618 pos 2617.0 load -28 peak 75
+012 stair  approach +1 goal 2628 pos 2628.0 load -81 peak 95
+013 stair  approach +1 goal 2648 pos 2650.0 load -110 peak 146
+014 repeat approach -1 goal 2608 pos 2607.0 load +0 peak 72
+015 repeat approach +1 goal 2608 pos 2607.0 load -23 peak 148
+016 repeat approach -1 goal 2608 pos 2606.0 load -46 peak 115
+017 repeat approach +1 goal 2608 pos 2607.0 load -22 peak 118
+018 repeat approach -1 goal 2608 pos 2611.0 load -65 peak 109
+019 repeat approach +1 goal 2608 pos 2607.0 load -23 peak 117
+020 repeat approach -1 goal 2608 pos 2611.0 load -67 peak 107
+021 repeat approach +1 goal 2608 pos 2607.0 load -18 peak 98
+022 repeat approach -1 goal 2608 pos 2608.0 load -41 peak 100
+023 repeat approach +1 goal 2608 pos 2606.0 load +0 peak 120
+024 repeat approach -1 goal 2608 pos 2606.0 load -43 peak 95
+025 repeat approach +1 goal 2608 pos 2611.0 load -61 peak 135
+026 repeat approach -1 goal 2608 pos 2612.0 load -44 peak 99
+027 repeat approach +1 goal 2608 pos 2606.0 load +24 peak 98
+028 repeat approach -1 goal 2608 pos 2606.0 load -45 peak 90
+029 repeat approach +1 goal 2608 pos 2608.0 load -49 peak 140
+030 repeat approach -1 goal 2608 pos 2611.0 load -70 peak 101
+031 repeat approach +1 goal 2608 pos 2607.0 load -19 peak 156
+032 repeat approach -1 goal 2608 pos 2611.0 load -64 peak 91
+033 repeat approach +1 goal 2608 pos 2606.0 load +0 peak 120
+034 repeat approach -1 goal 2608 pos 2607.0 load -20 peak 96
+035 repeat approach +1 goal 2608 pos 2607.0 load -20 peak 139
+036 repeat approach -1 goal 2608 pos 2611.0 load -65 peak 94
+037 repeat approach +1 goal 2608 pos 2607.0 load -20 peak 121
+038 repeat approach -1 goal 2608 pos 2611.0 load -70 peak 92
+039 repeat approach +1 goal 2608 pos 2607.0 load -20 peak 85
+040 repeat approach -1 goal 2608 pos 2611.0 load -66 peak 86
+041 repeat approach +1 goal 2608 pos 2607.0 load -21 peak 144
+042 repeat approach -1 goal 2608 pos 2611.0 load -68 peak 93
+043 repeat approach +1 goal 2608 pos 2606.0 load -17 peak 145
+044 static_end approach +0 goal 2608 pos 2606.0 load -17 peak 0
+045 static_end approach +0 goal 2608 pos 2606.0 load -17 peak 0
+046 static_end approach +0 goal 2608 pos 2606.0 load -17 peak 0
+DONE
+released: torque off, settings restored
+--- analyze runs/elbow_flex_comp_20260922_151006 ---
+joint                  elbow_flex
+compensated            True
+P                      2608
+measure                px
+per_step               0.3365
+stair_r2               0.9408
+stair_resid_rms_steps  5.7387
+noise_floor_steps      0.025
+failed_registrations   [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+stair_points_used      9
+min_cc_repeat          0.6913
+from_above             {'n': 15, 'cam_mean': -41.825, 'cam_std': 23.102, 'enc_mean': 1.333, 'enc_std': 2.32, 'hidden_mean': -43.158, 'hidden_std': 23.695}
+from_below             {'n': 15, 'cam_mean': -45.756, 'cam_std': 24.988, 'enc_mean': -0.933, 'enc_std': 1.223, 'hidden_mean': -44.823, 'hidden_std': 25.129}
+reversal_error         {'camera_steps': 3.931, 'camera_deg': 0.346, 'encoder_steps': 2.267, 'hidden_steps': 1.664, 'mm_at_250mm': 1.508}
+all_arrivals           {'cam_std_steps': 23.729, 'cam_std_deg': 2.086, 'cam_range_steps': 81.918, 'mm_at_250mm_1sigma': 9.1, 'enc_std_steps': 2.156, 'hidden_std_steps': 24.013, 'corr_cam_enc': -0.087}
+=== wrist_flex 15:20:54 ===
+[ WARN:0@0.049] global cap.cpp:215 open VIDEOIO(V4L2): backend is generally available but can't be used to capture by name
+ABORTED: AssertionError('camera read failed')
+released: torque off, settings restored
+--- analyze runs/wrist_flex_comp_20260922_152054 ---
+[ WARN:0@0.006] global loadsave.cpp:278 findDecoder imread_('runs/wrist_flex_comp_20260922_152054/000.png'): can't open/read file: check file path/integrity
+Traceback (most recent call last):
+  File "/home/machine/so101-yash/hardware/repeat/analyze2.py", line 25, in <module>
+    ref = load(0)
+          ^^^^^^^
+  File "/home/machine/so101-yash/hardware/repeat/analyze2.py", line 13, in load
+    g = cv2.imread(str(run / f"{i:03d}.png"), cv2.IMREAD_UNCHANGED).astype(np.float32) / 256
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'astype'
+=== all done 15:20:56 ===
