@@ -1,0 +1,6 @@
+.caches/
+.venv/
+outputs/
+assets/mujoco_menagerie/
+__pycache__/
+*.pyc
