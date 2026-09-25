@@ -1,0 +1,18 @@
+{
+  "time": 1790146615.5832636,
+  "pose": {
+    "shoulder_pan": 22.021978021978022,
+    "shoulder_lift": 49.142857142857146,
+    "elbow_flex": 49.75824175824176,
+    "wrist_flex": -98.54945054945055,
+    "wrist_roll": -70.98901098901099
+  },
+  "clear": true,
+  "loads": {
+    "shoulder_pan": 24,
+    "shoulder_lift": 160,
+    "elbow_flex": 44,
+    "wrist_flex": 32,
+    "wrist_roll": 24
+  }
+}

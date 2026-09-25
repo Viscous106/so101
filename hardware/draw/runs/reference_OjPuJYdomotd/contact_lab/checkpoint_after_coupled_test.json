@@ -1,0 +1,25 @@
+{
+  "time": 1790155116.5110767,
+  "pose": {
+    "shoulder_pan": 28.87912087912088,
+    "shoulder_lift": 28.65934065934066,
+    "elbow_flex": 68.48351648351648,
+    "wrist_flex": -94.41758241758242,
+    "wrist_roll": -71.07692307692308
+  },
+  "goals": {
+    "shoulder_pan": 28.615384615384617,
+    "shoulder_lift": 28.483516483516482,
+    "elbow_flex": 67.95604395604396,
+    "wrist_flex": -95.12087912087912,
+    "wrist_roll": -71.25274725274726
+  },
+  "loads": {
+    "shoulder_pan": 24,
+    "shoulder_lift": 20,
+    "elbow_flex": 36,
+    "wrist_flex": 44,
+    "wrist_roll": 20
+  },
+  "clear": true
+}

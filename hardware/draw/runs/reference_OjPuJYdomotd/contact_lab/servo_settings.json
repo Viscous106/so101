@@ -1,0 +1,37 @@
+{
+  "shoulder_pan": {
+    "P_Coefficient": 16,
+    "D_Coefficient": 32,
+    "I_Coefficient": 0,
+    "CW_Dead_Zone": 1,
+    "CCW_Dead_Zone": 1
+  },
+  "shoulder_lift": {
+    "P_Coefficient": 16,
+    "D_Coefficient": 32,
+    "I_Coefficient": 0,
+    "CW_Dead_Zone": 1,
+    "CCW_Dead_Zone": 1
+  },
+  "elbow_flex": {
+    "P_Coefficient": 16,
+    "D_Coefficient": 32,
+    "I_Coefficient": 0,
+    "CW_Dead_Zone": 1,
+    "CCW_Dead_Zone": 1
+  },
+  "wrist_flex": {
+    "P_Coefficient": 16,
+    "D_Coefficient": 32,
+    "I_Coefficient": 0,
+    "CW_Dead_Zone": 1,
+    "CCW_Dead_Zone": 1
+  },
+  "wrist_roll": {
+    "P_Coefficient": 16,
+    "D_Coefficient": 32,
+    "I_Coefficient": 0,
+    "CW_Dead_Zone": 1,
+    "CCW_Dead_Zone": 1
+  }
+}

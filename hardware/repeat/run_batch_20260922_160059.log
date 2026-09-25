@@ -145,3 +145,102 @@ third-person camera gain/mean: (255, 101.6046462673611)
 040 repeat approach -1 goal 1181 pos 1181.0 load +61 peak 93
 041 repeat approach +1 goal 1181 pos 1181.0 load +19 peak 44
 042 repeat approach -1 goal 1181 pos 1182.0 load +18 peak 102
+043 repeat approach +1 goal 1181 pos 1181.0 load +19 peak 48
+044 static_end approach +0 goal 1181 pos 1181.0 load +19 peak 0
+045 static_end approach +0 goal 1181 pos 1181.0 load +19 peak 0
+046 static_end approach +0 goal 1181 pos 1181.0 load +19 peak 0
+DONE
+released: settings restored, torque off
+after batch: {'shoulder_pan': {'tq': 0, 'P': 16, 'I': 0, 'temp': 34}, 'shoulder_lift': {'tq': 0, 'P': 16, 'I': 0, 'temp': 35}, 'elbow_flex': {'tq': 0, 'P': 16, 'I': 0, 'temp': 34}, 'wrist_flex': {'tq': 0, 'P': 16, 'I': 0, 'temp': 34}, 'wrist_roll': {'tq': 0, 'P': 16, 'I': 0, 'temp': 34}, 'gripper': {'tq': 0, 'P': 16, 'I': 0, 'temp': 34}}
+--- analyze2 (wrist) runs/shoulder_lift_comp_20260922_160059 ---
+/home/machine/so101-yash/hardware/repeat/analyze2.py:65: RankWarning: Polyfit may be poorly conditioned
+  slope, icpt = np.polyfit(sp, meas(stair), 1)
+/home/machine/so101-yash/hardware/repeat/analyze2.py:71: RuntimeWarning: invalid value encountered in scalar divide
+  "stair_r2": 1 - resid.var() / meas(stair).var(), "stair_resid_rms_steps": float(np.sqrt((resid ** 2).mean()) / abs(slope)),
+/home/machine/so101-yash/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3045: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/machine/so101-yash/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3046: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+joint                  shoulder_lift
+compensated            True
+P                      2202
+measure                px
+per_step               0.0
+stair_r2               nan
+stair_resid_rms_steps  0.0
+noise_floor_steps      55441.5138
+failed_registrations   [2, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+stair_points_used      1
+min_cc_repeat          -1.0
+from_above             {'n': 15, 'cam_mean': 0.0, 'cam_std': 0.0, 'enc_mean': -0.361, 'enc_std': 2.496, 'hidden_mean': 0.361, 'hidden_std': 2.496}
+from_below             {'n': 15, 'cam_mean': 0.0, 'cam_std': 0.0, 'enc_mean': 0.0, 'enc_std': 0.0, 'hidden_mean': 0.0, 'hidden_std': 0.0}
+reversal_error         {'camera_steps': 0.0, 'camera_deg': 0.0, 'encoder_steps': -0.361, 'hidden_steps': 0.361, 'mm_at_250mm': 0.0}
+all_arrivals           {'cam_std_steps': 0.0, 'cam_std_deg': 0.0, 'cam_range_steps': 0.0, 'mm_at_250mm_1sigma': 0.0, 'enc_std_steps': 1.744, 'hidden_std_steps': 1.744, 'corr_cam_enc': nan}
+--- analyze3 (third-person) runs/shoulder_lift_comp_20260922_160059 ---
+/home/machine/so101-yash/hardware/repeat/analyze3.py:81: RankWarning: Polyfit may be poorly conditioned
+  slope, icpt = np.polyfit(sp, meas(stair), 1)
+/home/machine/so101-yash/hardware/repeat/analyze3.py:87: RuntimeWarning: invalid value encountered in scalar divide
+  "per_step_px": slope, "stair_r2": 1 - resid.var() / meas(stair).var(), "stair_resid_rms_steps": float(np.sqrt((resid ** 2).mean()) / abs(slope)),
+Traceback (most recent call last):
+  File "/home/machine/so101-yash/hardware/repeat/analyze3.py", line 92, in <module>
+    cam = to_steps(meas(rows)); pos = np.array([c["pos"] for c in rows]) - meta["P"]; hid = cam - pos; hid_all.append(hid)
+                   ^^^^^^^^^^
+  File "/home/machine/so101-yash/hardware/repeat/analyze3.py", line 79, in <lambda>
+    meas = lambda rows: D(rows) @ u
+                        ~~~~~~~~^~~
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+--- analyze2 (wrist) runs/elbow_flex_comp_20260922_160552 ---
+joint                  elbow_flex
+compensated            True
+P                      2836
+measure                px
+per_step               1.2496
+stair_r2               0.9978
+stair_resid_rms_steps  0.4742
+noise_floor_steps      0.0049
+failed_registrations   [5, 6, 13]
+stair_points_used      6
+min_cc_repeat          0.8755
+from_above             {'n': 15, 'cam_mean': 4.399, 'cam_std': 1.972, 'enc_mean': 0.533, 'enc_std': 1.598, 'hidden_mean': 3.865, 'hidden_std': 1.177}
+from_below             {'n': 15, 'cam_mean': 3.206, 'cam_std': 0.237, 'enc_mean': 0.0, 'enc_std': 0.0, 'hidden_mean': 3.206, 'hidden_std': 0.237}
+reversal_error         {'camera_steps': 1.193, 'camera_deg': 0.105, 'encoder_steps': 0.533, 'hidden_steps': 0.66, 'mm_at_250mm': 0.458}
+all_arrivals           {'cam_std_steps': 1.508, 'cam_std_deg': 0.133, 'cam_range_steps': 6.605, 'mm_at_250mm_1sigma': 0.578, 'enc_std_steps': 1.143, 'hidden_std_steps': 0.899, 'corr_cam_enc': 0.804}
+--- analyze3 (third-person) runs/elbow_flex_comp_20260922_160552 ---
+joint                  elbow_flex
+camera                 third-person
+P                      2836
+roi                    [238, 0, 782, 431]
+tip_px                 [510.0, 391.0]
+per_step_px            0.9539
+stair_r2               0.9741
+stair_resid_rms_steps  0.6297
+noise_floor_steps      0.0066
+failed_registrations   [5, 6, 7, 11, 12, 13]
+min_cc_repeat          0.7063
+from_above             {'n': 15, 'cam_mean': 6.884, 'cam_std': 3.04, 'enc_mean': 0.533, 'enc_std': 1.598, 'hidden_mean': 6.35, 'hidden_std': 1.536}
+from_below             {'n': 15, 'cam_mean': 4.541, 'cam_std': 0.186, 'enc_mean': 0.0, 'enc_std': 0.0, 'hidden_mean': 4.541, 'hidden_std': 0.186}
+reversal_error         {'camera_steps': 2.343, 'camera_deg': 0.206, 'encoder_steps': 0.533, 'hidden_steps': 1.81, 'mm_at_250mm': 0.899}
+all_arrivals           {'cam_std_steps': 2.428, 'cam_std_deg': 0.213, 'cam_range_steps': 8.656, 'mm_at_250mm_1sigma': 0.931, 'enc_std_steps': 1.143, 'hidden_std_steps': 1.415, 'corr_cam_enc': 0.937}
+--- analyze2 (wrist) runs/wrist_flex_comp_20260922_161042 ---
+joint                  wrist_flex
+compensated            True
+P                      1181
+measure                px
+per_step               1.2241
+stair_r2               0.9948
+stair_resid_rms_steps  0.5102
+noise_floor_steps      0.0105
+failed_registrations   [5, 6, 12, 13]
+stair_points_used      5
+min_cc_repeat          0.8437
+from_above             {'n': 15, 'cam_mean': 1.845, 'cam_std': 0.582, 'enc_mean': -0.333, 'enc_std': 0.9, 'hidden_mean': 2.178, 'hidden_std': 0.965}
+from_below             {'n': 15, 'cam_mean': 1.887, 'cam_std': 1.115, 'enc_mean': -0.4, 'enc_std': 0.828, 'hidden_mean': 2.287, 'hidden_std': 0.359}
+reversal_error         {'camera_steps': -0.042, 'camera_deg': -0.004, 'encoder_steps': 0.067, 'hidden_steps': -0.108, 'mm_at_250mm': 0.016}
+all_arrivals           {'cam_std_steps': 0.874, 'cam_std_deg': 0.077, 'cam_range_steps': 3.188, 'mm_at_250mm_1sigma': 0.335, 'enc_std_steps': 0.85, 'hidden_std_steps': 0.717, 'corr_cam_enc': 0.654}
+--- analyze3 (third-person) runs/wrist_flex_comp_20260922_161042 ---
+Traceback (most recent call last):
+  File "/home/machine/so101-yash/hardware/repeat/analyze3.py", line 31, in <module>
+    assert reds, "no red marker tip found in reference_third.jpg"
+           ^^^^
+AssertionError: no red marker tip found in reference_third.jpg
+=== batch done 16:30:56 ===

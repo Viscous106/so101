@@ -1,0 +1,782 @@
+[
+  {
+    "name": "box_check",
+    "index": 0,
+    "goal": [
+      24.087912087912088,
+      55.53113553113553
+    ],
+    "actual": [
+      24.043956043956044,
+      55.2967032967033
+    ],
+    "loads": {
+      "shoulder_pan": 28,
+      "shoulder_lift": -24,
+      "elbow_flex": -56,
+      "wrist_flex": -32,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.0
+  },
+  {
+    "name": "box_check",
+    "index": 1,
+    "goal": [
+      24.043956043956044,
+      55.765567765567766
+    ],
+    "actual": [
+      24.043956043956044,
+      55.472527472527474
+    ],
+    "loads": {
+      "shoulder_pan": 28,
+      "shoulder_lift": 0,
+      "elbow_flex": -60,
+      "wrist_flex": -32,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.12
+  },
+  {
+    "name": "box_check",
+    "index": 2,
+    "goal": [
+      24.0,
+      56.0
+    ],
+    "actual": [
+      24.043956043956044,
+      55.73626373626374
+    ],
+    "loads": {
+      "shoulder_pan": 28,
+      "shoulder_lift": -20,
+      "elbow_flex": -64,
+      "wrist_flex": -32,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.12
+  },
+  {
+    "name": "box_check",
+    "index": 3,
+    "goal": [
+      24.285714285714285,
+      56.0
+    ],
+    "actual": [
+      24.043956043956044,
+      55.73626373626374
+    ],
+    "loads": {
+      "shoulder_pan": 0,
+      "shoulder_lift": -20,
+      "elbow_flex": -72,
+      "wrist_flex": -32,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.12
+  },
+  {
+    "name": "box_check",
+    "index": 4,
+    "goal": [
+      24.571428571428573,
+      56.0
+    ],
+    "actual": [
+      24.043956043956044,
+      55.73626373626374
+    ],
+    "loads": {
+      "shoulder_pan": -24,
+      "shoulder_lift": -20,
+      "elbow_flex": -76,
+      "wrist_flex": -32,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.12
+  },
+  {
+    "name": "box_check",
+    "index": 4,
+    "goal": [
+      24.571428571428573,
+      56.0
+    ],
+    "actual": [
+      24.13186813186813,
+      56.0
+    ],
+    "loads": {
+      "shoulder_pan": -28,
+      "shoulder_lift": -20,
+      "elbow_flex": -68,
+      "wrist_flex": -32,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.12
+  },
+  {
+    "name": "box_check",
+    "index": 5,
+    "goal": [
+      24.857142857142858,
+      56.0
+    ],
+    "actual": [
+      24.571428571428573,
+      56.0
+    ],
+    "loads": {
+      "shoulder_pan": -32,
+      "shoulder_lift": -20,
+      "elbow_flex": -68,
+      "wrist_flex": -32,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.12
+  },
+  {
+    "name": "box_check",
+    "index": 6,
+    "goal": [
+      25.142857142857142,
+      56.0
+    ],
+    "actual": [
+      25.01098901098901,
+      56.0
+    ],
+    "loads": {
+      "shoulder_pan": -28,
+      "shoulder_lift": -20,
+      "elbow_flex": -68,
+      "wrist_flex": -32,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.12
+  },
+  {
+    "name": "box_check",
+    "index": 7,
+    "goal": [
+      25.428571428571427,
+      56.0
+    ],
+    "actual": [
+      25.274725274725274,
+      56.0
+    ],
+    "loads": {
+      "shoulder_pan": -32,
+      "shoulder_lift": -20,
+      "elbow_flex": -68,
+      "wrist_flex": -32,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.12
+  },
+  {
+    "name": "box_check",
+    "index": 8,
+    "goal": [
+      25.714285714285715,
+      56.0
+    ],
+    "actual": [
+      25.626373626373628,
+      56.0
+    ],
+    "loads": {
+      "shoulder_pan": -32,
+      "shoulder_lift": -20,
+      "elbow_flex": -68,
+      "wrist_flex": -32,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.12
+  },
+  {
+    "name": "box_check",
+    "index": 9,
+    "goal": [
+      26.0,
+      56.0
+    ],
+    "actual": [
+      25.978021978021978,
+      56.0
+    ],
+    "loads": {
+      "shoulder_pan": -32,
+      "shoulder_lift": -20,
+      "elbow_flex": -68,
+      "wrist_flex": -32,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.12
+  },
+  {
+    "name": "box_check",
+    "index": 10,
+    "goal": [
+      26.0,
+      56.285714285714285
+    ],
+    "actual": [
+      25.978021978021978,
+      56.43956043956044
+    ],
+    "loads": {
+      "shoulder_pan": -32,
+      "shoulder_lift": 0,
+      "elbow_flex": -60,
+      "wrist_flex": -32,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.24
+  },
+  {
+    "name": "box_check",
+    "index": 11,
+    "goal": [
+      26.0,
+      56.57142857142857
+    ],
+    "actual": [
+      25.978021978021978,
+      56.43956043956044
+    ],
+    "loads": {
+      "shoulder_pan": -32,
+      "shoulder_lift": 0,
+      "elbow_flex": -72,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.36
+  },
+  {
+    "name": "box_check",
+    "index": 12,
+    "goal": [
+      26.0,
+      56.857142857142854
+    ],
+    "actual": [
+      25.978021978021978,
+      56.879120879120876
+    ],
+    "loads": {
+      "shoulder_pan": -32,
+      "shoulder_lift": 0,
+      "elbow_flex": -68,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.48
+  },
+  {
+    "name": "box_check",
+    "index": 13,
+    "goal": [
+      26.0,
+      57.142857142857146
+    ],
+    "actual": [
+      25.978021978021978,
+      56.879120879120876
+    ],
+    "loads": {
+      "shoulder_pan": -32,
+      "shoulder_lift": 0,
+      "elbow_flex": -80,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.6
+  },
+  {
+    "name": "box_check",
+    "index": 14,
+    "goal": [
+      26.0,
+      57.42857142857143
+    ],
+    "actual": [
+      25.978021978021978,
+      57.40659340659341
+    ],
+    "loads": {
+      "shoulder_pan": -32,
+      "shoulder_lift": 0,
+      "elbow_flex": -72,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.72
+  },
+  {
+    "name": "box_check",
+    "index": 15,
+    "goal": [
+      26.0,
+      57.714285714285715
+    ],
+    "actual": [
+      25.978021978021978,
+      57.582417582417584
+    ],
+    "loads": {
+      "shoulder_pan": -32,
+      "shoulder_lift": -20,
+      "elbow_flex": -80,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.72
+  },
+  {
+    "name": "box_check",
+    "index": 16,
+    "goal": [
+      26.0,
+      58.0
+    ],
+    "actual": [
+      25.978021978021978,
+      57.67032967032967
+    ],
+    "loads": {
+      "shoulder_pan": -32,
+      "shoulder_lift": 0,
+      "elbow_flex": -88,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.84
+  },
+  {
+    "name": "box_check",
+    "index": 17,
+    "goal": [
+      25.714285714285715,
+      58.0
+    ],
+    "actual": [
+      25.978021978021978,
+      57.67032967032967
+    ],
+    "loads": {
+      "shoulder_pan": -20,
+      "shoulder_lift": 0,
+      "elbow_flex": -96,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 18,
+    "goal": [
+      25.428571428571427,
+      58.0
+    ],
+    "actual": [
+      25.978021978021978,
+      57.67032967032967
+    ],
+    "loads": {
+      "shoulder_pan": 20,
+      "shoulder_lift": -24,
+      "elbow_flex": -100,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 18,
+    "goal": [
+      25.428571428571427,
+      58.0
+    ],
+    "actual": [
+      25.89010989010989,
+      58.1978021978022
+    ],
+    "loads": {
+      "shoulder_pan": 28,
+      "shoulder_lift": -36,
+      "elbow_flex": -84,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 18,
+    "goal": [
+      25.428571428571427,
+      58.0
+    ],
+    "actual": [
+      25.53846153846154,
+      58.1978021978022
+    ],
+    "loads": {
+      "shoulder_pan": 20,
+      "shoulder_lift": -40,
+      "elbow_flex": -80,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 19,
+    "goal": [
+      25.142857142857142,
+      58.0
+    ],
+    "actual": [
+      25.53846153846154,
+      58.1978021978022
+    ],
+    "loads": {
+      "shoulder_pan": 32,
+      "shoulder_lift": -32,
+      "elbow_flex": -76,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 20,
+    "goal": [
+      24.857142857142858,
+      58.0
+    ],
+    "actual": [
+      25.01098901098901,
+      58.1978021978022
+    ],
+    "loads": {
+      "shoulder_pan": 32,
+      "shoulder_lift": -28,
+      "elbow_flex": -72,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 21,
+    "goal": [
+      24.571428571428573,
+      58.0
+    ],
+    "actual": [
+      24.65934065934066,
+      58.1978021978022
+    ],
+    "loads": {
+      "shoulder_pan": 32,
+      "shoulder_lift": -28,
+      "elbow_flex": -68,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 22,
+    "goal": [
+      24.285714285714285,
+      58.0
+    ],
+    "actual": [
+      24.307692307692307,
+      58.1978021978022
+    ],
+    "loads": {
+      "shoulder_pan": 28,
+      "shoulder_lift": -28,
+      "elbow_flex": -64,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 23,
+    "goal": [
+      24.0,
+      58.0
+    ],
+    "actual": [
+      24.043956043956044,
+      58.1978021978022
+    ],
+    "loads": {
+      "shoulder_pan": 28,
+      "shoulder_lift": -28,
+      "elbow_flex": -64,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 24,
+    "goal": [
+      24.0,
+      57.714285714285715
+    ],
+    "actual": [
+      24.043956043956044,
+      58.1978021978022
+    ],
+    "loads": {
+      "shoulder_pan": 32,
+      "shoulder_lift": -28,
+      "elbow_flex": -44,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 24,
+    "goal": [
+      24.0,
+      57.714285714285715
+    ],
+    "actual": [
+      24.043956043956044,
+      58.1978021978022
+    ],
+    "loads": {
+      "shoulder_pan": 32,
+      "shoulder_lift": -28,
+      "elbow_flex": -36,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 24,
+    "goal": [
+      24.0,
+      57.714285714285715
+    ],
+    "actual": [
+      24.043956043956044,
+      58.1978021978022
+    ],
+    "loads": {
+      "shoulder_pan": 32,
+      "shoulder_lift": -28,
+      "elbow_flex": -28,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 24,
+    "goal": [
+      24.0,
+      57.714285714285715
+    ],
+    "actual": [
+      24.043956043956044,
+      58.1978021978022
+    ],
+    "loads": {
+      "shoulder_pan": 32,
+      "shoulder_lift": -28,
+      "elbow_flex": -20,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 24,
+    "goal": [
+      24.0,
+      57.714285714285715
+    ],
+    "actual": [
+      24.043956043956044,
+      58.1978021978022
+    ],
+    "loads": {
+      "shoulder_pan": 36,
+      "shoulder_lift": -28,
+      "elbow_flex": 0,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 24,
+    "goal": [
+      24.0,
+      57.714285714285715
+    ],
+    "actual": [
+      24.043956043956044,
+      57.934065934065934
+    ],
+    "loads": {
+      "shoulder_pan": 36,
+      "shoulder_lift": -24,
+      "elbow_flex": 0,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 25,
+    "goal": [
+      24.0,
+      57.42857142857143
+    ],
+    "actual": [
+      24.043956043956044,
+      57.582417582417584
+    ],
+    "loads": {
+      "shoulder_pan": 36,
+      "shoulder_lift": -24,
+      "elbow_flex": 0,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 26,
+    "goal": [
+      24.0,
+      57.142857142857146
+    ],
+    "actual": [
+      24.043956043956044,
+      57.23076923076923
+    ],
+    "loads": {
+      "shoulder_pan": 36,
+      "shoulder_lift": -24,
+      "elbow_flex": 0,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 27,
+    "goal": [
+      24.0,
+      56.857142857142854
+    ],
+    "actual": [
+      23.86813186813187,
+      56.967032967032964
+    ],
+    "loads": {
+      "shoulder_pan": 24,
+      "shoulder_lift": -24,
+      "elbow_flex": 0,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 0.96
+  },
+  {
+    "name": "box_check",
+    "index": 28,
+    "goal": [
+      24.0,
+      56.57142857142857
+    ],
+    "actual": [
+      23.86813186813187,
+      56.61538461538461
+    ],
+    "loads": {
+      "shoulder_pan": 28,
+      "shoulder_lift": 0,
+      "elbow_flex": 0,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 1.08
+  },
+  {
+    "name": "box_check",
+    "index": 29,
+    "goal": [
+      24.0,
+      56.285714285714285
+    ],
+    "actual": [
+      23.86813186813187,
+      56.26373626373626
+    ],
+    "loads": {
+      "shoulder_pan": 24,
+      "shoulder_lift": -20,
+      "elbow_flex": 0,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 1.08
+  },
+  {
+    "name": "box_check",
+    "index": 30,
+    "goal": [
+      24.0,
+      56.0
+    ],
+    "actual": [
+      23.86813186813187,
+      56.175824175824175
+    ],
+    "loads": {
+      "shoulder_pan": 20,
+      "shoulder_lift": -24,
+      "elbow_flex": 20,
+      "wrist_flex": -36,
+      "wrist_roll": 0
+    },
+    "force_correction": 1.08
+  }
+]

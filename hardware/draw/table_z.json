@@ -1,0 +1,4 @@
+{
+ "contact_z_m": -5.710890362375194e-05,
+ "note": "gripper_frame_link Z, position-only IK (orientation_weight=0.0), same make_kinematics() setup as ik.py - includes unmeasured pen-tip length and table height combined into this one number"
+}

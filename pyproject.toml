@@ -14,9 +14,12 @@ sim = [
     "mujoco>=3.2",
 ]
 real = [
-    "lerobot[feetech,hardware]>=0.6.1",
+    "lerobot[feetech,hardware,placo-dep]>=0.6.1",
     "opencv-python-headless",
     "python-xlib",
+]
+genesis = [
+    "genesis-world>=1.4.1",
 ]
 
 [tool.uv]

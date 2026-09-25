@@ -1,0 +1,93 @@
+{
+  "contact": 56.35164835164835,
+  "samples": [
+    {
+      "goal": 26.052197802197803,
+      "actual": 25.802197802197803,
+      "loads": {
+        "shoulder_pan": -24,
+        "shoulder_lift": -28,
+        "elbow_flex": -52,
+        "wrist_flex": -36,
+        "wrist_roll": 0
+      }
+    },
+    {
+      "goal": 26.302197802197803,
+      "actual": 25.802197802197803,
+      "loads": {
+        "shoulder_pan": -36,
+        "shoulder_lift": -28,
+        "elbow_flex": -52,
+        "wrist_flex": -36,
+        "wrist_roll": 0
+      }
+    },
+    {
+      "goal": 26.552197802197803,
+      "actual": 26.153846153846153,
+      "loads": {
+        "shoulder_pan": -32,
+        "shoulder_lift": -28,
+        "elbow_flex": -52,
+        "wrist_flex": -36,
+        "wrist_roll": 0
+      }
+    },
+    {
+      "goal": 26.802197802197803,
+      "actual": 26.417582417582416,
+      "loads": {
+        "shoulder_pan": -28,
+        "shoulder_lift": -28,
+        "elbow_flex": -52,
+        "wrist_flex": -36,
+        "wrist_roll": 0
+      }
+    },
+    {
+      "goal": 27.052197802197803,
+      "actual": 26.593406593406595,
+      "loads": {
+        "shoulder_pan": -32,
+        "shoulder_lift": -28,
+        "elbow_flex": -52,
+        "wrist_flex": -36,
+        "wrist_roll": 0
+      }
+    },
+    {
+      "goal": 27.302197802197803,
+      "actual": 27.032967032967033,
+      "loads": {
+        "shoulder_pan": -24,
+        "shoulder_lift": -28,
+        "elbow_flex": -52,
+        "wrist_flex": -36,
+        "wrist_roll": 0
+      }
+    },
+    {
+      "goal": 27.552197802197803,
+      "actual": 27.032967032967033,
+      "loads": {
+        "shoulder_pan": -36,
+        "shoulder_lift": -28,
+        "elbow_flex": -52,
+        "wrist_flex": -36,
+        "wrist_roll": 0
+      }
+    },
+    {
+      "goal": 27.802197802197803,
+      "actual": 27.384615384615383,
+      "loads": {
+        "shoulder_pan": -32,
+        "shoulder_lift": -24,
+        "elbow_flex": -52,
+        "wrist_flex": -36,
+        "wrist_roll": 0
+      }
+    }
+  ]
+}

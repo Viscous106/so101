@@ -1,0 +1,5 @@
+{
+  "_comment": "Finalized 2026-09-22 via label_motors.py: ID-to-joint mapping confirmed correct by camera-diff signature (shoulder_lift/elbow_flex give the largest third-person diffs - lifting/bending swings the nearby forearm through the close camera's view; wrist_roll gives the largest wrist-camera diff - rolling spins that camera's own view; gripper's muted response in both cameras is explained by the marker taped into the jaws restricting its travel, not a mislabeling). This is the arm's resting pose after that test: safe, torque off, not near any limit.",
+  "ids": {"shoulder_pan": 1, "shoulder_lift": 2, "elbow_flex": 3, "wrist_flex": 4, "wrist_roll": 5, "gripper": 6},
+  "raw_pos": {"shoulder_pan": 2088, "shoulder_lift": 2549, "elbow_flex": 2792, "wrist_flex": 1012, "wrist_roll": 1094, "gripper": 1812}
+}
